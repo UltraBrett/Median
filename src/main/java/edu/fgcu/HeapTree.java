@@ -18,11 +18,11 @@ class HeapTree<T extends Comparable<T>>{
 	}
 
 	public boolean isFull(){
-		return size==buffer.length;
+		return size==buffer.length-5;
 	}
 
 	public boolean isEmpty(){
-		return size==0;
+		return size==3;
 	}
 
 	public void insert(T val){
